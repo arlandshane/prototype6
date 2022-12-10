@@ -1,0 +1,35 @@
+
+$(".btn").click(function () {
+    $("p").css("margin", "15% 0 0 0");
+    $("p").text("O");
+    $("p").css("font-family", "Montserrat, serif");
+    $("p").css("font-size", "3rem");
+    $(".btn").css("background-color", "pink");
+    $(".btn").css("border-radius", "100%");
+    $(".btn").css("left", "47.5%");
+    $(".btn").css("top", "85%");
+    $(".btn").css("transition-duration", "700ms");
+    $(".btn").css("width", "2.5rem");
+    $(".btn").css("height", "4.3rem");
+    $("p").css("font-family", "Montserrat, serif");
+    $("p").css("font-size", "2.2rem");
+    $("p").text("X");
+    $("p").css("margin", "0");
+    $("p").css("position", "inherit");
+    $("p").css("left", "35%");
+    $("p").css("top", "20%");
+    $(".btn").css("background-color", "peachpuff");
+    $("button").css("opacity", "1").css("background-color", "pink");
+    $(".tile>img").css("transition-duration", "700ms").css("opacity", "1");
+    $(".tile").css("background", "none");
+    $("body").css("background-color", "purple");
+    $(".tile").css("transition-duration", "700ms");
+    $(".1").css("transform", "translateX(23.5rem)");
+    $(".2").css("transform", "translate(-30%, -23.4rem)");
+    $(".3").css("transform", "translate(40%, 18.4rem)");
+    $(".4").css("transform", "translate(-100%, -5rem)");
+    $(".5").css("transform", "translateX(-23.5rem)");
+    $(".6").css("transform", "translate(100%, -5rem)");
+    $(".7").css("transform", "translate(30%, -23.2rem)");
+    $(".8").css("transform", "translate(-40%, 18.4rem)");
+});
